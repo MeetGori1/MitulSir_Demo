@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="20dp"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".WeatherapiCall">
+
+    <TextView
+        android:id="@+id/txtTextView"
+        android:text="@string/enter_contact_number_to_receive_sms_about_air_quality_data_in_sms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edtContactNum"
+        android:layout_width="match_parent"
+        android:maxLength="10"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_contact_number_here"
+        />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtTemprature"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtTemprature1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtTemprature2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtTemprature3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtTemprature4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtTemprature5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtTemprature6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/txtTemprature7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/aqi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnSendSms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/send_sms"
+        />
+
+</LinearLayout>
